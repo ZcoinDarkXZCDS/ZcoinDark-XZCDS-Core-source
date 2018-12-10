@@ -1,0 +1,22 @@
+[Unit]
+Description=ZcoinDark's distributed currency daemon
+After=network.target
+
+[Service]
+User=zcoindarkcore
+Group=zcoindarkcore
+
+Type=forking
+PIDFile=/var/lib/zcoindarkd/zcoindarkd.pid
+ExecStart=/usr/bin/zcoindarkd -daemon -pid=/var/lib/zcoindarkd/zcoindarkd.pid \
+-conf=/etc/zcoindarkcore/zcoindark.conf -datadir=/var/lib/zcoindarkd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

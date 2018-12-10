@@ -1,0 +1,4 @@
+qt/qt_libzcoindarkqt_a-qrc_zcoindark_locale.o: \
+ qt/qrc_zcoindark_locale.cpp /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

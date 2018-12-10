@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ZcoinDark Core
+Comment=ZcoinDark P2P Cryptocurrency
+Comment[de]=Verbinde mit dem ZcoinDark peer-to-peer Netzwerk
+Comment[fr]=ZcoinDark, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ZcoinDark, eşten eşe kriptografik sanal para birimi
+Exec=zcoindark-qt %u
+Terminal=false
+Type=Application
+Icon=zcoindark128
+MimeType=x-scheme-handler/zcoindark;
+Categories=Office;Finance;

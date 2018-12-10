@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/zcoindark_bg.qm</file>
+        <file alias="de">locale/zcoindark_de.qm</file>
+        <file alias="en">locale/zcoindark_en.qm</file>
+        <file alias="es">locale/zcoindark_es.qm</file>
+        <file alias="fi">locale/zcoindark_fi.qm</file>
+        <file alias="fr">locale/zcoindark_fr.qm</file>
+        <file alias="it">locale/zcoindark_it.qm</file>
+        <file alias="ja">locale/zcoindark_ja.qm</file>
+        <file alias="nl">locale/zcoindark_nl.qm</file>
+        <file alias="pl">locale/zcoindark_pl.qm</file>
+        <file alias="pt">locale/zcoindark_pt.qm</file>
+        <file alias="ru">locale/zcoindark_ru.qm</file>
+        <file alias="sk">locale/zcoindark_sk.qm</file>
+        <file alias="sv">locale/zcoindark_sv.qm</file>
+        <file alias="vi">locale/zcoindark_vi.qm</file>
+        <file alias="zh_CN">locale/zcoindark_zh_CN.qm</file>
+        <file alias="zh_TW">locale/zcoindark_zh_TW.qm</file>
+    </qresource>
+</RCC>

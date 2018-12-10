@@ -1,0 +1,6 @@
+usr/local/bin/zcoindark-qt usr/bin
+share/pixmaps/zcoindark32.xpm usr/share/pixmaps
+share/pixmaps/zcoindark16.xpm usr/share/pixmaps
+share/pixmaps/zcoindark128.png usr/share/pixmaps
+debian/zcoindark-qt.desktop usr/share/applications
+debian/zcoindark-qt.protocol usr/share/kde4/services/
